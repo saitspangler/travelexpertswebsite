@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {}
+    "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
+    "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
+        "projectUniqueName": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
         "projectName": "TravelExpertsData",
-        "projectPath": "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
+        "projectPath": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
         "packagesPath": "C:\\Users\\859234\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExpertsData\\obj\\",
         "projectStyle": "PackageReference",

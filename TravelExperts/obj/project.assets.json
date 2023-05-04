@@ -11384,11 +11384,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
+      "projectUniqueName": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
       "projectName": "TravelExperts",
-      "projectPath": "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
+      "projectPath": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
       "packagesPath": "C:\\Users\\859234\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExperts\\obj\\",
+      "outputPath": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\859234\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11405,8 +11405,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
-              "projectPath": "C:\\Users\\859234\\Source\\Repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj"
+            "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
+              "projectPath": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj"
             }
           }
         }
