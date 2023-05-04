@@ -1,0 +1,88 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.banner-image {
+    background-size: cover;
+}
+
+.banner-image-home {
+    background-image: url('../images/greece1.jpg');
+}
+
+.banner-image-login {
+    background-image: url('../images/login.jpeg');
+}
+
+.banner-image-register {
+    background-image: url('../images/beach.jpg');
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0.25rem;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+.navbarto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.social-icon {
+    color: white;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+        color: #007bff;
+}
+
+.container.my-5.d-grid.gap-5 {
+    padding-top: 70px;
+}
+
+footer {
+    margin-top:0px;
+}
+
+.mt-5 {
+    margin-top: 0px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-nav-link {
+    padding: 0.5rem 1rem;
+}

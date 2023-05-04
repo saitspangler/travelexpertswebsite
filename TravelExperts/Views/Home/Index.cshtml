@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home";
+}
+
+<body class="home">
+
+    <div class="banner-image banner-image-home w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <h1 class="text-white">Welcome to Travel Experts!</h1>
+            <form asp-controller="Home" asp-action="SearchPackages" method="get">
+                <div class="input-group">
+                    <select class="form-control btn-outline-secondary" name="selectedPackage" required>
+                        <option value="">Where do you want to go next?</option>
+                        @foreach (var packageName in ViewBag.PackageNames)
+                        {
+                            <option value="@packageName">@packageName</option>
+                        }
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<p>Explore the world with our fantastic travel packages!</p>
+
+    <div class="container">
+        <div class="panel active" style="background-image: url(images/lakelouise.jpg)">
+            <h3>Iceland</h3>
+        </div>
+        <div class="panel" style="background-image: url(images/santiago.webp)">
+            <h3>Iceland</h3>
+        </div>
+        <div class="panel" style="background-image: url(images/iceland2.jpg)">
+            <h3>Iceland</h3>
+        </div>
+        <div class="panel" style="background-image: url(images/greece.jpg)">
+            <h3>Lake Louise</h3>
+        </div>
+        <div class="panel" style="background-image: url(images/greece.jpg)">
+            <h3>Lake Louise</h3>
+        </div>
+    </div>
+
+<script src="~/js/site.js"></script>
+
+</body>
+
+
