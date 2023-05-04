@@ -33,6 +33,13 @@ html {
     background-image: url('../images/beach.jpg');
 }
 
+.banner-image-mybookings {
+    background-image: url('../images/beach.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .nav-link {
     color: white;
     font-size: 18px;
