@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj": {}
+    "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
+    "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
+        "projectUniqueName": "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
         "projectName": "TravelExpertsData",
-        "projectPath": "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
-        "packagesPath": "C:\\Users\\922851\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\obj\\",
+        "projectPath": "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj",
+        "packagesPath": "C:\\Users\\922852\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExpertsData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\922851\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\922852\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj": {
+    "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
+        "projectUniqueName": "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
         "projectName": "TravelExperts",
-        "projectPath": "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
-        "packagesPath": "C:\\Users\\922851\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExperts\\obj\\",
+        "projectPath": "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExperts\\TravelExperts.csproj",
+        "packagesPath": "C:\\Users\\922852\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExperts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\922851\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\922852\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,15 +89,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
-                "projectPath": "C:\\Users\\922851\\source\\repos\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj"
+              "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj": {
+                "projectPath": "C:\\Users\\922852\\Documents\\GitHub\\travelexpertswebsite\\TravelExpertsData\\TravelExpertsData.csproj"
               }
             }
           }
@@ -167,7 +157,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

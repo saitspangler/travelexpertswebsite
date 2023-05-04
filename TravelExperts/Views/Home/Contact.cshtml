@@ -31,7 +31,7 @@
 							<textarea asp-for="Message" class="form-control" rows="4"></textarea>
 							<span asp-validation-for="Message" class="text-danger"></span>
 						</div>
-							<button type="submit" class="btn btn-dark">Submit</button>
+							<button type="submit" asp-action="ContactSuccess" class="btn btn-dark">Submit</button>
 					</form>
 				</div>
 			</div>

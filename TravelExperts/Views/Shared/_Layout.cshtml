@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@*Updated: Footer subscribe navigation
+Authors: Allen F. Horton & Peter Thiel *@
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -10,6 +13,7 @@
     @RenderSection("head", required: false)
 </head>
 <body>
+
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
@@ -41,6 +45,8 @@
                         {
                             string firstName = User.Claims.FirstOrDefault(c => c.Type == "FirstName")?.Value ?? string.Empty;
 
+
+
                             <li class="nav-item">
                                 <a class="nav-link text-white custom-nav-link" href="#" onclick="return false;">
                                     Welcome, @firstName
@@ -70,14 +76,13 @@
         </div>
     </nav>
 
-
     <div>
         @RenderBody()
     </div>
 
     <footer class="bg-dark text-white mt-5">
         <div class="container py-5">
-            
+
             <div class="row justify-content-center pb-4">
                 <!-- Social Media Links -->
                 <div class="col-md-4 text-center">
@@ -117,7 +122,7 @@
                         <div class="input-group justify-content-center">
                             <input type="email" class="form-control" placeholder="Email" style="max-width: 300px;">
                             <div class="input-group-append">
-                                <button class="btn btn-secondary" type="submit">Subscribe</button>
+                                <button class="btn btn-secondary" asp-controller="Home" asp-action="SubscribeSuccess" type="submit">Subscribe</button>
                             </div>
                         </div>
                     </form>
@@ -131,13 +136,13 @@
     </footer>
 
 
-
- 
     <!-- Add jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+
     <!-- Add jQuery Validation library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
 
     <!-- Add jQuery Validation Unobtrusive library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
@@ -145,20 +150,18 @@
     <script src="~/lib/popper.js/dist/umd/popper.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    
+
 
     <script>
 
         var nav = document.querySelector('nav');
-
-        window.addEventListener('scroll', function(){
-            if(window.pageYOffset >100){
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
                 nav.classList.add('bg-dark', 'shadow');
-            }else{
+            } else {
                 nav.classList.remove('bg-dark', 'shadow')
             }
         });
-
     </script>
     <script>
         document.getElementById('logoutLink').addEventListener('click', function (event) {
@@ -166,10 +169,6 @@
             document.getElementById('logoutForm').submit();
         });
     </script>
-
     @RenderSection("Scripts", required: false)
-    
-
 </body>
-
 </html>
