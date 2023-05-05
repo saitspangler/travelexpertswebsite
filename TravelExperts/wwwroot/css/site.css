@@ -94,6 +94,7 @@ footer {
     padding: 0.5rem 1rem;
 }
 
+<<<<<<< HEAD
 .containercard {
     display: flex;
     width: 90vw;
@@ -201,3 +202,5 @@ footer {
 .boxi:hover .overlay {
     opacity: 1;
 }
+=======
+>>>>>>> main

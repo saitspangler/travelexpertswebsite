@@ -9,6 +9,11 @@ using MimeKit;
 
 namespace TravelExperts.Controllers
 {
+
+    //updated: May 4th, 2023
+    //Authors: PeterT Allen Horton
+    //Added reference to SubscribeSuccess
+
     public class HomeController : Controller
     {
         private readonly TravelExpertsContext _context;
@@ -64,6 +69,11 @@ namespace TravelExperts.Controllers
         }
 
         public IActionResult ContactSuccess()
+        {
+            return View();
+        }
+
+        public IActionResult SubscribeSuccess()
         {
             return View();
         }
