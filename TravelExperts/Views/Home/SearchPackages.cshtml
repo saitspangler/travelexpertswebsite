@@ -1,23 +1,91 @@
 ﻿@model TravelExperts.Models.Package
-@{
-    string packageImage = "";
-    switch (Model.PkgName)
-    {
-        case "Polynesian Paradise":
-            packageImage = "~/images/french.png";
-            break;
-        case "European Vacation":
-            packageImage = "~/images/europe.png";
-            break;
-        case "Caribbean New Year":
-            packageImage = "~/images/caribbean (1).png";
-            break;
-        case "Asian Expedition":
-            packageImage = "~/images/asia.png";
-            break;
+<style>
+    .containercard .carousel-container {
+        display: flex;
+        width: 90vw;
+        margin-top: 80px;
     }
 
+    .carousel-container{
+        margin-top: 180px;
+        margin-left:60px;
+    }
+
+    
+    body {
+        background-color: #343a40;
+    }
+
+
+
+
+    .panel {
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 80vh;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        flex: 0.5;
+        margin: 10px;
+        position: relative;
+        transition: flex 0.7s ease-in;
+    }
+
+        .panel h3 {
+            font-size: 24px;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            opacity: 0;
+        }
+
+        .panel.active {
+            flex: 5;
+        }
+
+            .panel.active h3 {
+                opacity: 1;
+                transition: opacity 0.3s ease-in 0.4s;
+            }
+</style>
+@{
+    Dictionary<string, List<string>> packageImages = new Dictionary<string, List<string>>()
+{
+    {
+        "Polynesian Paradise", new List<string> { Url.Content("~/images/hawai1.jpg"), Url.Content("~/images/hawai2.jpg"), Url.Content("~/images/hawai3.jpg"), Url.Content("~/images/hawai4.jpg"), Url.Content("~/images/hawai5.jpg"), Url.Content("~/images/hawai6.jpg") }
+    },
+    {
+        "European Vacation", new List<string> { Url.Content("~/images/europe1.jpg"), Url.Content("~/images/europe2.jpg"), Url.Content("~/images/europe3.jpg"), Url.Content("~/images/europe4.jpg"), Url.Content("~/images/europe5.jpg"), Url.Content("~/images/europe6.jpg") }
+    },
+    {
+        "Caribbean New Year", new List<string> { Url.Content("~/images/caribbean1.jpg"), Url.Content("~/images/caribbean2.jpg"), Url.Content("~/images/caribbean3.jpg"), Url.Content("~/images/caribbean4.jpg"), Url.Content("~/images/caribbean5.jpg"), Url.Content("~/images/caribbean6.jpg") }
+    },
+    {
+        "Asian Expedition", new List<string> { Url.Content("~/images/asia1.jpg"), Url.Content("~/images/asia2.jpg"), Url.Content("~/images/asia3.jpg"), Url.Content("~/images/asia4.jpg"), Url.Content("~/images/asia5.jpg"), Url.Content("~/images/asia6.jpg") }
+    },
+};
+
 }
+
+@{
+    string packageName = Model.PkgName;
+}
+@if (packageImages.ContainsKey(packageName))
+{
+    <div class="containercard carousel-container">
+        @foreach (string imageUrl in packageImages[packageName])
+        {
+            <div class="panel">
+                <img src="@imageUrl" alt="@packageName" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50px;">
+                
+            </div>
+        }
+    </div>
+}
+
 
 
 <h1 class="text-center mb-4"></h1>
@@ -25,7 +93,7 @@
     <div class="card">
         <div class="card-body">
             <h2 class="card-title text-center">@Model.PkgName</h2>
-            <img id="packageImage" alt="@Model.PkgName" class="img-fluid rounded mx-auto d-block mb-3" />
+
 
             <p class="card-text">Start Date: @(Model.PkgStartDate?.ToString("MMMM dd, yyyy"))</p>
             <p class="card-text">End Date: @(Model.PkgEndDate?.ToString("MMMM dd, yyyy"))</p>
@@ -34,17 +102,11 @@
             <p class="card-text">Agency Commission: @Model.PkgAgencyCommission?.ToString("C")</p>
             <form asp-controller="Account" asp-action="ReservePackage" method="post" class="text-center">
                 <input type="hidden" name="id" value="@Model.PackageId" />
-                <button type="submit" class="btn btn-primary">Reserve</button>
+                <button type="submit" class="btn btn-dark">Reserve</button>
             </form>
         </div>
     </div>
 </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var packageImagePath = '@packageImage';
-        var resolvedPath = packageImagePath.replace('~', '');
-        document.getElementById('packageImage').src = resolvedPath;
-    });
-</script>
+<script src="~/js/carousel.js"></script>
 

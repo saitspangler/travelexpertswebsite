@@ -93,8 +93,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\air1.jpg",
+      "PackagePath": "staticwebassets\\images\\air1.jpg"
+    },
+    {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\asia.png",
       "PackagePath": "staticwebassets\\images\\asia.png"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\asia1.jpg",
+      "PackagePath": "staticwebassets\\images\\asia1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\asia2.jpg",
+      "PackagePath": "staticwebassets\\images\\asia2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\asia3.jpg",
+      "PackagePath": "staticwebassets\\images\\asia3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\asia4.jpg",
+      "PackagePath": "staticwebassets\\images\\asia4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\asia5.jpg",
+      "PackagePath": "staticwebassets\\images\\asia5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\asia6.jpg",
+      "PackagePath": "staticwebassets\\images\\asia6.jpg"
     },
     {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\background1.jpg",
@@ -109,6 +137,14 @@
       "PackagePath": "staticwebassets\\images\\beach3.jpg"
     },
     {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\bus1.jpg",
+      "PackagePath": "staticwebassets\\images\\bus1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\car1.jpg",
+      "PackagePath": "staticwebassets\\images\\car1.jpg"
+    },
+    {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\caribbean (1).png",
       "PackagePath": "staticwebassets\\images\\caribbean (1).png"
     },
@@ -117,8 +153,60 @@
       "PackagePath": "staticwebassets\\images\\caribbean.png"
     },
     {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\caribbean1.jpg",
+      "PackagePath": "staticwebassets\\images\\caribbean1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\caribbean2.jpg",
+      "PackagePath": "staticwebassets\\images\\caribbean2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\caribbean3.jpg",
+      "PackagePath": "staticwebassets\\images\\caribbean3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\caribbean4.jpg",
+      "PackagePath": "staticwebassets\\images\\caribbean4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\caribbean5.jpg",
+      "PackagePath": "staticwebassets\\images\\caribbean5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\caribbean6.jpg",
+      "PackagePath": "staticwebassets\\images\\caribbean6.jpg"
+    },
+    {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\europe.png",
       "PackagePath": "staticwebassets\\images\\europe.png"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\europe1.jpg",
+      "PackagePath": "staticwebassets\\images\\europe1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\europe2.jpg",
+      "PackagePath": "staticwebassets\\images\\europe2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\europe3.jpg",
+      "PackagePath": "staticwebassets\\images\\europe3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\europe4.jpg",
+      "PackagePath": "staticwebassets\\images\\europe4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\europe5.jpg",
+      "PackagePath": "staticwebassets\\images\\europe5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\europe6.jpg",
+      "PackagePath": "staticwebassets\\images\\europe6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\ferris1.jpg",
+      "PackagePath": "staticwebassets\\images\\ferris1.jpg"
     },
     {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\french.png",
@@ -137,6 +225,34 @@
       "PackagePath": "staticwebassets\\images\\greece2.jpg"
     },
     {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\hawai1.jpg",
+      "PackagePath": "staticwebassets\\images\\hawai1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\hawai2.jpg",
+      "PackagePath": "staticwebassets\\images\\hawai2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\hawai3.jpg",
+      "PackagePath": "staticwebassets\\images\\hawai3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\hawai4.jpg",
+      "PackagePath": "staticwebassets\\images\\hawai4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\hawai5.jpg",
+      "PackagePath": "staticwebassets\\images\\hawai5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\hawai6.jpg",
+      "PackagePath": "staticwebassets\\images\\hawai6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\hotel21.jpg",
+      "PackagePath": "staticwebassets\\images\\hotel21.jpg"
+    },
+    {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\iceland.JPG",
       "PackagePath": "staticwebassets\\images\\iceland.JPG"
     },
@@ -147,6 +263,10 @@
     {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\iceland3.JPG",
       "PackagePath": "staticwebassets\\images\\iceland3.JPG"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\insurance1.jpg",
+      "PackagePath": "staticwebassets\\images\\insurance1.jpg"
     },
     {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\lakelouise.JPG",
@@ -175,6 +295,22 @@
     {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\santiago.webp",
       "PackagePath": "staticwebassets\\images\\santiago.webp"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\tours1.jpg",
+      "PackagePath": "staticwebassets\\images\\tours1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\train1.jpg",
+      "PackagePath": "staticwebassets\\images\\train1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\images\\yatchs1.jpg",
+      "PackagePath": "staticwebassets\\images\\yatchs1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\js\\carousel.js",
+      "PackagePath": "staticwebassets\\js\\carousel.js"
     },
     {
       "Id": "C:\\Users\\859234\\source\\repos\\travelexpertswebsite\\TravelExperts\\wwwroot\\js\\site.js",
