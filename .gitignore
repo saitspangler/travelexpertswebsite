@@ -443,3 +443,6 @@ FodyWeavers.xsd
 /TravelExpertsData/.vs/TravelExpertsData/DesignTimeBuild/.dtbcache.v2
 /TravelExpertsData/.vs/ProjectEvaluation/travelexpertsdata.projects.v6.1
 /TravelExpertsData/.vs/ProjectEvaluation/travelexpertsdata.metadata.v6.1
+/.vs/slnx.sqlite
+/TravelExperts/obj/Release/net7.0/TravelExperts.GeneratedMSBuildEditorConfig.editorconfig
+/TravelExperts/bin/Debug/net7.0/TravelExperts.exe
