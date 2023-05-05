@@ -2,36 +2,53 @@
 
 @{
     Layout = "_Layout";
+    decimal totalAmount = Model.Sum(bookingDetail => bookingDetail.BasePrice.GetValueOrDefault());
 }
 
-<h2 class="mb-4">My Bookings</h2>
 
-<div class="table-responsive">
-    <table class="table table-striped table-hover">
-        <thead class="thead-dark">
-            <tr>
-                <th scope="col">Booking ID</th>
-                <th scope="col">Booking Date</th>
-                <th scope="col">Trip Start</th>
-                <th scope="col">Trip End</th>
-                <th scope="col">Description</th>
-                <th scope="col">Destination</th>
-                <th scope="col">Amount</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var bookingDetail in Model)
-            {
-                <tr>
-                    <td>@bookingDetail.BookingId</td>
-                    <td>@(bookingDetail.Booking.BookingDate?.ToString("d") ?? "")</td>
-                    <td>@(bookingDetail.TripStart.HasValue ? bookingDetail.TripStart.Value.ToShortDateString() : string.Empty)</td>
-                    <td>@(bookingDetail.TripEnd.HasValue ? bookingDetail.TripEnd.Value.ToShortDateString() : string.Empty)</td>
-                    <td>@bookingDetail.Description</td>
-                    <td>@bookingDetail.Destination</td>
-                    <td>@string.Format("{0:C}", bookingDetail.BasePrice)</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+
+<div class="banner-image banner-image-mybookings w-100 vh-100 d-flex justify-content-center align-items-center">
+    <div class="container my-5" style="margin-top: 3rem; padding-top: 1rem;">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2 style="color: white; text-align: center; padding-bottom: 20px;">My Bookings</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">Booking ID</th>
+                                        <th scope="col">Booking Date</th>
+                                        <th scope="col">Trip Start</th>
+                                        <th scope="col">Trip End</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Destination</th>
+                                        <th scope="col">Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var bookingDetail in Model)
+                                    {
+                                        <tr>
+                                            <td>@bookingDetail.BookingId</td>
+                                            <td>@(bookingDetail.Booking.BookingDate?.ToString("d") ?? "")</td>
+                                            <td>@(bookingDetail.TripStart.HasValue ? bookingDetail.TripStart.Value.ToShortDateString() : string.Empty)</td>
+                                            <td>@(bookingDetail.TripEnd.HasValue ? bookingDetail.TripEnd.Value.ToShortDateString() : string.Empty)</td>
+                                            <td>@bookingDetail.Description</td>
+                                            <td>@bookingDetail.Destination</td>
+                                            <td>@string.Format("{0:C}", bookingDetail.BasePrice)</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="total-amount">
+                            <h4>Total Amount: @string.Format("{0:C}", totalAmount)</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
